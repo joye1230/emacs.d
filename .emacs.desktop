@@ -1,0 +1,55 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Mar  6 15:27:48 2017
+;; Desktop file format version 208
+;; Emacs version 25.1.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22717 3956 226148 0) (desktop . "208") "joye@JoyeMac" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 30) (width . 154) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "372E-CF64-0F6B-9438") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 154) (pixel-height . 29) (total-width . 154) (total-height . 29) (normal-height . 1.0) (normal-width . 1.0) (buffer "client2.go" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 2) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 378) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/el-get/el-get/recipes/emacswiki/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/joye/Documents/examle/go/client2.go"
+  "client2.go"
+  'go-mode
+  '(linum-mode)
+  378
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/joye/test.lua"
+  "test.lua"
+  'lua-mode
+  '(linum-mode)
+  19
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/joye/test.py"
+  "test.py"
+  'python-mode
+  '(linum-mode)
+  6060
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
