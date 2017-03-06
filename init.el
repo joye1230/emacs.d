@@ -6,13 +6,13 @@
 
 
 ;;go mode 插件
-(add-to-list 'load-path "~/.emacs.d/plugin/go-mode.el/")
+(add-to-list 'load-path "~/.emacs.d/plugin/language/")
 (require 'go-mode-autoloads)
 
 
 ;;lua-mode 插件
 
-(add-to-list 'load-path "~/.emacs.d/plugin/lua-mode/")
+(add-to-list 'load-path "~/.emacs.d/plugin/language/")
 (autoload 'lua-mode "lua-mode" "Lua editing mode." t)
 (add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))
 (add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
